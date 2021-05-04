@@ -1,8 +1,5 @@
-function invitati () {
-    var cognomeCasuale = cognomi[Math.floor(Math.random() * cognomi.length)];
-    var nomeCasuale = nomi[Math.floor(Math.random() * nomi.length)];
-
-    var invitati = cognomeCasuale + " " + nomeCasuale;
-
-    return invitati;
+function invitati (array) {
+    
+    var string = array[Math.floor(Math.random() * array.length)];
+    return string;
 }

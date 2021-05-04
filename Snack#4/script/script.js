@@ -9,5 +9,5 @@ var cognomi = ["Paul", "Rossi", "Watanabe", "Gherardi", "Pirelli", "Pirani", "Ca
 console.log(cognomi);
 
 for (var i = 0; i < 10; i++) {
-    document.getElementById("invitati").innerHTML += "<li> Il/la signor* " + invitati() + " è invitat* alla festa di Gatsby. </li>"
+    document.getElementById("invitati").innerHTML += "<li> Il/la signor* <span>" + invitati() + "</span> è invitat* alla festa di Gatsby. </li>"
 }

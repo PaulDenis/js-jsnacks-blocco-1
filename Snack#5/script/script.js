@@ -5,7 +5,7 @@ var numeriDispari = [];
 for (var i = 0; i < 6; i++ ) {
     var num = parseInt(prompt("Inserisci un numero"));
     // console.log(num);
-    if(isEven(num)) {
+    if(isOdd(num)) {
         numeriDispari.push(num);
         // console.log(numeriDispari);
     }
